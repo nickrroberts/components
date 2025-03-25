@@ -4,7 +4,7 @@ This is a list of UI components I've built from scratch. Mostly to learn and als
 ## [Dropdown](https://www.npmjs.com/package/nr-components-dropdown)
 [Source](./packages/dropdown)
 ```bash
-npm install nr-components-dropdown`
+npm install nr-components-dropdown
 ```
 This component requires the following element structure and classnames. Here's a simple usage example. Drop in your options into the unordered list within the `dropdown-options` div.
 
@@ -27,7 +27,7 @@ This component requires the following element structure and classnames. Here's a
 ## [Carousel](https://www.npmjs.com/package/nr-components-carousel)
 [Source](./packages/carousel)
 ```bash
-npm install nr-components-carousel`
+npm install nr-components-carousel
 ```
 
 * You'll need to create a container div and use the `id="container"` attribute
