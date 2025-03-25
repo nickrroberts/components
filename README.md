@@ -1,7 +1,8 @@
 # Components
 This is a list of UI components I've built from scratch. Mostly to learn and also to use in my own projects. If you'd like to try them out, they're available on npm! Setup instructions below.
 
-## Dropdown
+## [Dropdown](https://www.npmjs.com/package/nr-components-dropdown)
+[Source](./packages/dropdown)
 ```bash
 npm install nr-components-dropdown`
 ```
@@ -23,7 +24,8 @@ This component requires the following element structure and classnames. Here's a
 </div>
 ```
 
-## Image carousel
+## [Carousel](https://www.npmjs.com/package/nr-components-carousel)
+[Source](./packages/carousel)
 ```bash
 npm install nr-components-carousel`
 ```
