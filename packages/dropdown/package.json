@@ -1,0 +1,27 @@
+{
+  "name": "nr-components-dropdown",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "A very simple custom dropdown component.",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Nick Roberts",
+  "license": "MIT",
+  "keywords": [
+    "dropdown",
+    "component"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.37.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
