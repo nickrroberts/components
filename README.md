@@ -1,16 +1,38 @@
 # Components
 This is a list of UI components I've built from scratch. Mostly to learn and also to use in my own projects. If you'd like to try them out, they're available on npm! Setup instructions below.
 
+## Dropdown
+```bash
+npm install nr-components-dropdown`
+```
+This component requires the following element structure and classnames. Here's a simple usage example. Drop in your options into the unordered list within the `dropdown-options` div.
+
+```html
+<div class="dropdown">
+    <div class="dropdown-select">
+        <p class="dropdown-selection"></p>
+        <button>select</button>
+    </div>
+    <div class="dropdown-options">
+        <ul>
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+         </ul>
+    </div>
+</div>
+```
+
 ## Image carousel
 ```bash
 npm install nr-components-carousel`
 ```
 
-* You'll need to create a container div and use the `id="container` attribute
+* You'll need to create a container div and use the `id="container"` attribute
 * After this, simply drop images (`<img src="" alt="">`) into your container and the carousel should pick them up and render them
 * If you need to override the default styles, these are the presets:
 
-```
+```css
 #carousel {
     height: 300px;
     width: 100%;
@@ -109,4 +131,5 @@ npm install nr-components-carousel`
     background-color: rgba(0, 0, 0, 0.5);
 }
 ```
+
 
