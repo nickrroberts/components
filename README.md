@@ -40,6 +40,7 @@ npm install nr-components-carousel
 
 ```js
 import Carousel from 'nr-components-carousel';
+import 'nr-components-carousel/dist/index.css'; //Don't forget to import the styles!
 Carousel();
 ```
 
