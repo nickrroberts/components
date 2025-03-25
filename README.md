@@ -4,6 +4,7 @@ This is a list of UI components I've built from scratch. Mostly to learn and als
 ## Image carousel
 ```bash
 npm install nr-components-carousel`
+```
 
 * You'll need to create a container div and use the `id="container` attribute
 * After this, simply drop images (`<img src="" alt="">`) into your container and the carousel should pick them up and render them
