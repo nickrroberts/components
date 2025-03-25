@@ -24,10 +24,23 @@ This component requires the following element structure and classnames. Here's a
 </div>
 ```
 
+In your index.js, app.js or similar, import and initialize the module: 
+
+```js
+import Dropdown from 'nr-components-dropdown';
+Dropdown();
+```
+
 ## [Carousel](https://www.npmjs.com/package/nr-components-carousel)
 [Source](./packages/carousel)
 ```bash
 npm install nr-components-carousel
+```
+* In your index.js, app.js or similar, import and initialize the module: 
+
+```js
+import Dropdown from 'nr-components-dropdown';
+Dropdown();
 ```
 
 * You'll need to create a container div and use the `id="container"` attribute
