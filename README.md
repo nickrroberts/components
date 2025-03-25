@@ -39,8 +39,8 @@ npm install nr-components-carousel
 * In your index.js, app.js or similar, import and initialize the module: 
 
 ```js
-import Dropdown from 'nr-components-dropdown';
-Dropdown();
+import Carousel from 'nr-components-carousel';
+Carousel();
 ```
 
 * You'll need to create a container div and use the `id="container"` attribute
